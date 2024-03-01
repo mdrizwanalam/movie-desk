@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Movie Deck Project</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  </head>
+  <body>
+    <header>
+      <h3>Movie Deck</h3>
+    </header>
+
+    <div class="main_container">
+      <div class="search_container">
+        <input type="text" placeholder="Search By Name" />
+        <button>Search</button>
+      </div>
+      <div class="filter_container">
+        <button class="all_movie">All</button>
+        <button class="fvrt_movie">Favourites</button>
+        <button class="sort_by_date">Sort by date (oldest to latest)</button>
+        <button class="sort_by_rating">Sort by rating (least to most)</button>
+      </div>
+
+      <div class="card_continer">
+        <!-- 1 -->
+        <div class="card">
+          <img class="image" src="./assets/img_avatar.png" alt="Avatar" />
+          <div class="movie_details">
+              <h4><b>Movie Title</b></h4>
+              <span><i class="fa-solid fa-heart fa-xl" style="color: #ff3d64;"></i></span>
+              <p><b>Votes :</b><span>115</span></p>
+              <p><b>Rating :</b><span>3.4</span></p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="card">
+            <img class="image" src="./assets/img_avatar.png" alt="Avatar" />
+            <div class="movie_details">
+                <h4><b>Movie Title</b></h4>
+                <span><i class="fa-solid fa-heart fa-xl" style="color: #ff3d64;"></i></span>
+                <p><b>Votes :</b><span>115</span></p>
+                <p><b>Rating :</b><span>3.4</span></p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

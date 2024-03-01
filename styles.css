@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeff1;
+}
+
+header {
+  background-color: tomato;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 50px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.main_container {
+}
+
+.search_container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 60px;
+  border-radius: 20px;
+  /* background-color: bisque; */
+}
+
+.search_container input[type="text"] {
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid tomato;
+}
+
+.search_container button {
+  cursor: pointer;
+  width: 100px;
+  background-color: tomato;
+  border: 1px solid tomato;
+  border-radius: 5px;
+}
+
+.filter_container {
+  /* border: 1px solid red; */
+  padding: 20px 0 20px 0;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.filter_container button {
+  cursor: pointer;
+  width: 20%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid tomato;
+  background-color: tomato;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.card_continer {
+  display: flex;
+  gap: 5px;
+}
+
+.image {
+  margin: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: #fff;
+  width: max-content;
+  border: 1px solid #c7d6df;
+  margin-top: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.movie_details {
+  padding: 0 20px 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.movie_details > * {
+  flex: 1 0 45%;
+}
